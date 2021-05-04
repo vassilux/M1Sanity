@@ -29,23 +29,8 @@ namespace M1Sanity.WPF.Views
             this.WhenActivated(d =>
             {
                 d(this.WhenAnyValue(x => x.ViewModel).BindTo(this, x => x.DataContext));
-               // d(this.BindCommand(ViewModel, vm => vm.HelloWorld, view => view.helloWorldButton));
+                // d(this.BindCommand(ViewModel, vm => vm.HelloWorld, view => view.helloWorldButton));
             });
         }
-
-        /*public IM1SanityViewModel ViewModel
-        {
-            get { return (IM1SanityViewModel)GetValue(ViewModelProperty); }
-            set { SetValue(ViewModelProperty, value); }
-        }
-        public static readonly DependencyProperty ViewModelProperty =
-            DependencyProperty.Register("ViewModel", typeof(IM1SanityViewModel), typeof(M1SanityView), new PropertyMetadata(null));
-
-        object IViewFor.ViewModel
-        {
-            get { return ViewModel; }
-            set { ViewModel = (IM1SanityViewModel)value; }
-        }*/
     }
-
 }

@@ -1,4 +1,4 @@
-﻿using M1Sanity.WPF.ModelViews;
+﻿using M1Sanity.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

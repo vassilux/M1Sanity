@@ -12,4 +12,8 @@
     <PackageReference Include="ReactiveUI.WPF" Version="12.1.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
 </Project>
